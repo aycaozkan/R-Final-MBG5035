@@ -1,0 +1,51 @@
+---
+title: "Rmarkdown"
+author: "Ayca Ozkan"
+date: "17 01 2022"
+output: pdf_document
+---
+
+# MBG5035 Final Assignment for R Programming
+## Introduction
+
+There are 3 functions in this package;
+is_perm_palindrome
+missing_NOs
+product_of_the_others
+
+### Functions
+
+#### is_perm_palindrome
+It checks given string is palindrome or not by checking 1 element
+from back and 1 element from beginning. If they are same, function writes "it is not a palindrome. If they are
+not same, function checks every element until string is  done.
+If string is palindrome, function writes it is a palindrome.
+
+##### Example
+
+Let's see if ayca is palindrome or not.
+
+is_perm_palindrome("ayca")
+
+it is not a palindrome
+
+#### missing_NOs
+This function looks for 2 missing numbers in given script from 1 to 100
+
+##### Example
+x <- c(1:30, 32:60, 62:100)
+
+missing_NOs(x)
+
+[31]
+[61]
+
+#### product_of_the_others
+It multiplies all of the elements in vector except the
+element that you want and writes the multiplication result
+
+##### Example
+a <-c(6, 4, 46, 89, 666)
+product_of_the_others(a)
+
+[1] 10906416 16359624  1422576   735264    98256

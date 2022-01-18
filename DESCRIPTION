@@ -1,0 +1,28 @@
+Package: Rpackage
+Type: Package
+Title: Final Assignmrnt for R programming (MBG5035)
+Version: 0.1.0
+Author: Ayca Ozkan
+Maintainer: The package maintainer <aycaozkan1416@hotmail.com>
+Description: Package has 3 functions; product_of_others,
+             missing_NOs, is_perm_palindrome.
+             product_of_others function multiplies all of the 
+             elements in vector except the element that you want and 
+             writes the multiplication result.
+             missing_NOs function  looks for 2 missing numbers 
+             in given script from 1 to 100.
+             is_perm_palindrome function checks given string is 
+             palindrome or not by checking 1 element from back 
+             and 1 element from beginning. If they are same, function 
+             writes "it is not a palindrome". If they are not same, 
+             function checks every element until string is  done. 
+             If string is palindrome, function writes "it is a 
+             palindrome"
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
